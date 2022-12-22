@@ -1,11 +1,11 @@
 .place__text {
-   display: flex;
-   flex-direction: column;
-   gap: 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 @media screen and (max-width: 680px) {
-   .place__text {
-      padding: 0 16px;
-   }
+  .place__text {
+    padding: 0 16px;
+  }
 }
