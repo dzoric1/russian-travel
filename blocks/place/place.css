@@ -23,5 +23,6 @@
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, min-content);
+    gap: 32px;
   }
 }
