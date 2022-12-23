@@ -8,7 +8,6 @@
 @media screen and (max-width: 1279px) {
   .place {
     grid-template-columns: 440px 1fr;
-    grid-template-rows: repeat(2, min-content);
     gap: 48px 32px;
   }
 }
@@ -16,7 +15,6 @@
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px 1fr;
-    grid-template-rows: repeat(2, min-content);
     gap: 48px 28px;
   }
 }
@@ -25,6 +23,5 @@
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(auto-fit, min-content);
-    gap: 48px 28px;
   }
 }
